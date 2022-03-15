@@ -11,7 +11,8 @@ void print_alphabet_x10(void)
 
 	i = 0;
 
-	for(i=0;i<9;i++){
+	while(i <= 9)
+	{
 		
 		ch = 'a';
 		while (ch <= 'z')
@@ -21,5 +22,6 @@ void print_alphabet_x10(void)
 		}
 
 		_putchar('\n');
+		i++;
 	}
 }
