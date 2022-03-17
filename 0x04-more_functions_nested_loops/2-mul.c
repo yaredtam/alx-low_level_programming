@@ -1,13 +1,16 @@
-#include "main.h";
+#include "main.h"
 
 /**
- * mul - returns product of two numbers
+ * mul - multiplies two integers
  * @a: int to be multiplied to b
  * @b: int to be multiplied to a
- * RETURN: product of two numbers 
+ * Return: the result of the operation
  */
-
 int mul(int a, int b)
 {
-	return (a * b);
+	int c;
+
+	c = a * b;
+
+	return (c);
 }
