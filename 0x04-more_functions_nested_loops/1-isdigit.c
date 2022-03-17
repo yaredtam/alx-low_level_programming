@@ -2,14 +2,11 @@
 
 /**
  * _isdigit - checks if variable c is in digit
+ * @c: int to be checked
  * RETURN: 1 if c is digit, 0 otherwise 
  */
 
 int _isdigit(int c)
 {
-	if(c >= 48 && c<=57)
-	{
-		return (1);
-	}
-	return (0);
+	return (c >= 48 && c<=57);
 }
